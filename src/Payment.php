@@ -112,18 +112,18 @@ class Payment
     }
 
     /**
-     * @return bool
+     * @return int
      */
-    public function isTestMode(): bool
+    public function isTestMode(): int
     {
         return $this->testMode;
     }
 
     /**
-     * @param bool $testMode
+     * @param int $testMode
      * @return $this
      */
-    public function setTestMode(bool $testMode): self
+    public function setTestMode(int $testMode): self
     {
         $this->testMode = $testMode;
 
