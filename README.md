@@ -1,8 +1,8 @@
-#PayTR ödeme sistemi için PHP kütüphanesi (PHP 7.1.3+) 
+# PayTR ödeme sistemi için PHP kütüphanesi (PHP 7.1.3+) 
 
 Kurulum:
 ```bash
-composer require mews/paytr
+composer require mrjavaci/paytr
 ```
 
 Örnek kullanım, `example` dizini içerisindedir.
